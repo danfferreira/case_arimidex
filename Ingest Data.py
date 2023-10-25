@@ -23,7 +23,7 @@ BUCKET_NAME = "ans-amb-cons"
 
 # Listas de estados, anos e meses
 states = ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SE', 'TO','SP']
-years = [str(year) for year in range(2018, 2020)] # como não é inclusivo, preciso colocar 2023
+years = [str(year) for year in range(2018, 2023)] # como não é inclusivo, preciso colocar 2023
 months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
 
 # Laço for para cada combinação de estado, ano e mês
